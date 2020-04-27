@@ -5,3 +5,4 @@ RUN git clone https://github.com/thavlik/oto.git
 WORKDIR /go/src/github.com/pacedotdev/oto
 RUN go get -u ./...
 RUN go install
+CMD ["oto"]
